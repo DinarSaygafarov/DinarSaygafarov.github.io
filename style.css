@@ -46,7 +46,7 @@ a{
 
 .header{
 	text-align: center;
-	font-weight: bold;
+	font-family: 'Overpass', sans-serif;
 }
 
 .link{
