@@ -1,0 +1,92 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+.container{
+	/* box-sizing: border-box;
+	border: 1px solid blue; */
+	height: 100vh;
+	width: 100vw;
+	background: url("bg.png");
+	background-size: auto 100%;
+	animation: scroll 500s infinite linear;
+}
+
+@keyframes scroll {
+	0%{
+		background-position-x: -500%;
+	}
+	100%{
+		background-position-x: 500%;
+	}
+}
+
+.card{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(34, 60, 80, 0.15);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 11px 12px 28px 8px rgba(34, 60, 80, 0.15);
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	text-align: center;
+	font-weight: bold;
+}
+
+.link{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.link:hover{
+	background-color: rgba(34, 60, 80, 0.05);
+}
+
+.link > img{
+	height: 64px;
+	width: 64px;
+	margin-right: 20px;
+}
+
+.link > span{
+	font-size: 20px;
+}
+
+.instagram{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.blue{
+	background-color: #2196f3 !important;
+}
+
+.red{
+	background-color: #f44336 !important;
+}
+
+.violet{
+	background-color: #9c27b0 !important;
+}
+
+.purple{
+	color: #833AB4 !important;
+}
